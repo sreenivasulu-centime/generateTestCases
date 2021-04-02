@@ -1,0 +1,16 @@
+,name,url,headers.clientid,response,headers.loginid,params.partner
+0,create_with headers.clientid as empty,test,,,,
+1,create_with headers.clientid as negative,test,-5,,,
+2,create_with headers.clientid as positive,test,10,,,
+3,create_with headers.clientid as bigvalue,test,1000000000000,,,
+4,create_with headers.clientid as smallvlaue,test,1,,,
+5,create_with headers.clientid as stringvalue,test,test,,,
+6,create_with headers.clientid as decimalvalue,test,10.5,,,
+7,create_with headers.loginid as empty,test,,,,
+8,create_with headers.loginid as bigvalue,test,,,Big Value given here,
+9,create_with headers.loginid as smallvlaue,test,,,test,
+10,create_with headers.loginid as numericalvalue,test,,,10,
+11,create_with params.partner as empty,test,,,,
+12,create_with params.partner as bigvalue,test,,,,Big Value given here
+13,create_with params.partner as smallvlaue,test,,,,test
+14,create_with params.partner as numericalvalue,test,,,,10
